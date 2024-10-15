@@ -2,7 +2,12 @@ import React from 'react'
 
 const Facebook = () => {
   return (
-    <div>Facebook</div>
+    <>
+      <div>Facebook</div>
+      <h1>{new Date().toLocaleTimeString()}</h1>
+    </>
+
+
   )
 }
 
